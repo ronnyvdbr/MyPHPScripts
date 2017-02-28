@@ -8,10 +8,6 @@ function authenticate($user, $password) {
 
 	if(empty($user) || empty($password)) return false;
 
-	echo $user;
-	echo $password;
-	
-	
 	// Active Directory server
 	$ldap_host = "dc01.home.ronnyvdb.net";
  
